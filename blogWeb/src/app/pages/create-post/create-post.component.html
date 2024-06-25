@@ -40,7 +40,7 @@
 
 
         <button mat-raised-button color="primary" style="float: right;"
-        [disabled]="!postForm.valid">Create New Post</button>
+        [disabled]="!postForm.valid" (click)="createPost()">Create New Post</button>
       </form>
     </div>
   </mat-card-content>
